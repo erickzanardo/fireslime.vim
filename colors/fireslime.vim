@@ -10,7 +10,7 @@ endif
 
 set t_Co=256
 let g:colors_name = "fireslime"
-
+set termguicolors
 
 " Define reusable colorvariables.
 let s:bg="#350e01"
