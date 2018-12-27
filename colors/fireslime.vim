@@ -14,20 +14,20 @@ set termguicolors
 
 " Define reusable colorvariables.
 let s:bg="#350e01"
-let s:fg="#66590d"
-let s:fg2="#5e520c"
+let s:fg="#ccbb59"
+let s:fg2="#b2a34e"
 let s:fg3="#564b0b"
 let s:fg4="#4e440a"
 let s:bg2="#452115"
 let s:bg3="#55352a"
 let s:bg4="#65483e"
-let s:keyword="#e75800"
+let s:keyword="#ed6840"
 let s:builtin="#910c08"
 let s:const= "#c54600"
 let s:comment="#595859"
-let s:func="#ff0000"
+let s:func="#c40000"
 let s:str="#bc9210"
-let s:type="#ff0302"
+let s:type="#c93938"
 let s:var="#fcdb00"
 let s:warning="#ff0000"
 let s:warning2="#f8c100"
@@ -110,5 +110,3 @@ exe 'hi htmlSpecialTagName guifg='s:keyword
 
 " Markdown Highlighting
 exe 'hi mkdCode guifg='s:builtin
-
-
